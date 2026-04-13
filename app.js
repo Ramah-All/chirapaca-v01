@@ -38,6 +38,14 @@ $(window).on('scroll',function(){
     'opacity':1 - scrolled / 400
   });
 
+
+  //boton---------------------------------------------------------------------------------------------------------------------
+  function irArriba(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
   
 
 })
